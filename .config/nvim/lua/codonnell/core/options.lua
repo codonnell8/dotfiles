@@ -25,7 +25,6 @@ opt.cursorline = true -- highlight the current cursor line
 -- appearance
 
 -- turn on termguicolors for nightfly colorscheme to work
--- (have to use iterm2 or any other true color terminal)
 opt.termguicolors = true
 opt.background = "dark" -- colorschemes that can be light or dark will be made dark
 opt.signcolumn = "yes" -- show sign column so that text doesn't shift
@@ -42,3 +41,12 @@ opt.splitbelow = true -- split horizontal window to the bottom
 
 -- turn off swapfile
 opt.swapfile = false
+
+-- folding
+--opt.foldmethod = "expr"
+--opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+--opt.foldcolumn = "0"
+--opt.foldtext = ""
+--opt.foldlevel = 99
+--opt.foldlevelstart = 1
+--opt.foldnestmax = 4
