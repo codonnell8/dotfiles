@@ -33,7 +33,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export PATH=$PATH:/Users/joseanmartinez/.spicetify
+export PATH=$PATH:/Users/codonnell/.spicetify
 
 export PATH="$HOME/.rbenv/shims:$PATH"
 
@@ -99,12 +99,6 @@ export BAT_THEME=tokyonight_night
 # ---- Eza (better ls) -----
 
 alias ls="eza --icons=always"
-
-# ---- TheFuck -----
-
-# thefuck alias
-eval $(thefuck --alias)
-eval $(thefuck --alias fk)
 
 # ---- Zoxide (better cd) ----
 eval "$(zoxide init zsh)"
